@@ -53,10 +53,17 @@
 
 
 ---
-<details>
-<summary><b>🕵️ 이미지 분석</b></summary>
+### **🕵️ 이미지 분석**
 
- <br>
+<details>
+<summary><b>얼굴 감정분석</b></summary>
+ 
+ 내용
+
+</details>
+
+<details>
+<summary><b>강의 이미지 검출</b></summary>
  
  내용
 
