@@ -3,7 +3,8 @@
 ### **🧑‍🤝‍🧑 천재교육 빅데이터 5기 '데이터 스쿼드' 팀 구성**
 
 <div align="center">
-| **권홍준** | **김하리** | **신다인** | **최태** |
+ 
+| **권홍준** | **김하리** | **신다인** | **최태영** |
 | :------: |  :------: | :------: | :------: |
 | [<img src="https://github.com/k-3730.png" height=150 width=150> <br/> @yeon1615](https://github.com/yeon1615) | [<img src="https://avatars.githubusercontent.com/u/112460466?v=4" height=150 width=150> <br/> @Cheorizzang](https://github.com/Cheorizzang) | [<img src="https://avatars.githubusercontent.com/u/112460506?v=4" height=150 width=150> <br/> @heejiyang](https://github.com/heejiyang) | [<img src="https://avatars.githubusercontent.com/u/76766459?v=4" height=150 width=150> <br/> @journey-ji](https://github.com/journey-ji) |
 
