@@ -1,4 +1,4 @@
-# 📈 밀크T Pass
+# 📈 MilkT Pass
 - - - -
 ### **천재교육 빅데이터 5기 '데이터 스쿼드'**
 <table>
@@ -8,9 +8,10 @@
     <img src="https://github.com/k-3730.png" width="150px;" alt="홍준"/>
     <br />
     <sub>
-    <b>권홍준</b><br>
-    <b>작업</b>
-    </sub>
+    <b>권홍준</b><sub>
+    </a>
+    <br />
+    <sub><b>작업</b><sub>
     </a>
     <br />
     <td align="center">
