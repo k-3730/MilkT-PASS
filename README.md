@@ -6,7 +6,7 @@
  
 | **권홍준** | **김하리** | **신다인** | **최태영** |
 | :------: |  :------: | :------: | :------: |
-| [<img src="https://github.com/k-3730.png" height=150 width=150> <br/> @yeon1615](https://github.com/yeon1615) | [<img src="https://avatars.githubusercontent.com/u/112460466?v=4" height=150 width=150> <br/> @Cheorizzang](https://github.com/Cheorizzang) | [<img src="https://avatars.githubusercontent.com/u/112460506?v=4" height=150 width=150> <br/> @heejiyang](https://github.com/heejiyang) | [<img src="https://avatars.githubusercontent.com/u/76766459?v=4" height=150 width=150> <br/> @journey-ji](https://github.com/journey-ji) |
+| [<img src="https://github.com/k-3730.png" height=150 width=150> <br/> @yeon1615](https://github.com/k-3730) | [<img src="https://github.com/hariqueen.png" height=150 width=150> <br/> @Cheorizzang](https://github.com/hariqueen) | [<img src="https://github.com/daini0i.png" height=150 width=150> <br/> @heejiyang](https://github.com/daini0i) | [<img src="https://github.com/surplus96.png" height=150 width=150> <br/> @journey-ji](https://github.com/surplus96) |
 
 
 ---
