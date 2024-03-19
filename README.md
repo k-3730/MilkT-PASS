@@ -61,17 +61,13 @@
  내용
 
 </details>
-<br>
+
 <details>
 <summary><b>강의 이미지 검출</b></summary>
  
  내용
 
 </details>
-<br>
-
-</details>
-<br>
 
 <details>
 <summary><b>제스처 분석</b></summary>
@@ -89,7 +85,6 @@
  내용
 
 </details>
-<br>
 
 <details>
 <summary><b>피치 분석</b></summary>
@@ -99,7 +94,6 @@
 </details>
 <br>
 
-
 ### **🕵️ 텍스트 분석**
 
 <details>
@@ -108,7 +102,6 @@
  내용
 
 </details>
-<br>
 
 <details>
 <summary><b>단어 등급 분류</b></summary>
@@ -116,18 +109,11 @@
  내용
 
 </details>
-<br>
-
-</details>
-<br>
 
 <details>
 <summary><b>형태소 분석</b></summary>
  
  내용
-
-</details>
-<br>
 
 </details>
 <br>
