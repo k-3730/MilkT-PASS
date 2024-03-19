@@ -53,10 +53,8 @@
 
 
 ---
-
-### **🕵️ 이미지 분석**
 <details>
-<summary><b>자세히 보기</b></summary>
+<summary><b>🕵️ 이미지 분석</b></summary>
 
  <br>
  
