@@ -14,28 +14,46 @@
  
 | **권홍준** | **김하리** | **신다인** | **최태영** |
 | :------: |  :------: | :------: | :------: |
-| [<img src="https://github.com/k-3730.png" height=150 width=150> <br/> @k-3730](https://github.com/k-3730) | [<img src="https://github.com/hariqueen.png" height=150 width=150> <br/> @hariqueen](https://github.com/hariqueen) | [<img src="https://github.com/daini0i.png" height=150 width=150> <br/> @daini0i](https://github.com/daini0i) | [<img src="https://github.com/surplus96.png" height=150 width=150> <br/> @surplus96](https://github.com/surplus96) |
+| <a href="https://github.com/k-3730"><img src="https://github.com/k-3730.png" height="150" width="150"></a> <br/> @k-3730 | <a href="https://github.com/hariqueen"><img src="https://github.com/hariqueen.png" height="150" width="150"></a> <br/> @hariqueen | <a href="https://github.com/daini0i"><img src="https://github.com/daini0i.png" height="150" width="150"></a> <br/> @daini0i | <a href="https://github.com/surplus96"><img src="https://github.com/surplus96.png" height="150" width="150"></a> <br/> @surplus96 |  
 
 </div>
 
 ### 🐻‍❄️ 권홍준
 - **얼굴 감정분석**
- - 내용 : 맞아?
+   - 내용 : 정리 예정
 
+- **프롬프트 엔지니어링**
+   - 내용 : 정리 예정
+
+- **형태소 분석**
+   - 내용 : 정리 예정
+ 
 <br>
 
 ### 🐶 김하리
-- 
+- **초 당 음절 수 분석**
+   - 내용 : 정리 예정
+
+- **단어 등급 분류**
+   - 내용 : 정리 예정
+ 
+ - **대화 패턴 분석**
+   - 내용 : 정리 예정
 
 <br>
 
 ### 🐱 신다인
-- 
+- **Obj**
 
 <br>
 
 ### 🐭 최태영 :
-
+- **제스처 분석**
+   - 내용 : 정리 예정
+ 
+ - **피치 분석**
+   - 내용 : 정리 예정
+  
 <br><br>
 
 
