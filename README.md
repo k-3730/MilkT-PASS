@@ -14,9 +14,7 @@
  
 | **권홍준** | **김하리** | **신다인** | **최태영** |
 | :------: |  :------: | :------: | :------: |
-| <a href="https://github.com/k-3730"><img src="https://github.com/k-3730.png" height="150" width="150"></a> <br/> 얼굴 감정분석 <br/> 프롬프트 엔지니어링 | <a href="https://github.com/hariqueen"><img src="https://github.com/hariqueen.png" height="150" width="150"></a> <br/> 초 당 음절 수 분석 <br/> 단어 등급 분류 | <a href="https://github.com/daini0i"><img src="https://github.com/daini0i.png" height="150" width="150"></a> <br/> 오브젝트 디텍션 | <a href="https://github.com/surplus96"><img src="https://github.com/surplus96.png" height="150" width="150"></a> <br/> 제스처 분석 <br/> 피치 분석 |  
-
-
+| <a href="https://github.com/k-3730"><img src="https://github.com/k-3730.png" height="150" width="150"></a> | <a href="https://github.com/hariqueen"><img src="https://github.com/hariqueen.png" height="150" width="150"></a> | <a href="https://github.com/daini0i"><img src="https://github.com/daini0i.png" height="150" width="150"></a> | <a href="https://github.com/surplus96"><img src="https://github.com/surplus96.png" height="150" width="150"></a> |
 
 </div>
 
