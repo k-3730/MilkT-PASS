@@ -25,7 +25,7 @@
 - **초 당 음절 수 분석 / 단어 등급 분류 / 대화 패턴 분석**
 
 ### 🐱 신다인
-- **강의 이미지 검출 (Object detection)**
+- **강의 이미지 검출**
 
 ### 🐭 최태영 :
 - **제스처 분석 / 피치 분석**
@@ -68,15 +68,77 @@
  내용
 
 </details>
+<br>
 
+</details>
+<br>
+
+<details>
+<summary><b>제스처 분석</b></summary>
+ 
+ 내용
+
+</details>
+<br>
 
 ### **🕵️ 음성 분석**
-내용
+
+<details>
+<summary><b>초 당 음절 수 분석</b></summary>
+ 
+ 내용
+
+</details>
+<br>
+
+<details>
+<summary><b>피치 분석</b></summary>
+ 
+ 내용
+
+</details>
+<br>
 
 
 ### **🕵️ 텍스트 분석**
-내용
 
+<details>
+<summary><b>프롬프트 엔지니어링</b></summary>
+ 
+ 내용
+
+</details>
+<br>
+
+<details>
+<summary><b>단어 등급 분류</b></summary>
+ 
+ 내용
+
+</details>
+<br>
+
+</details>
+<br>
+
+<details>
+<summary><b>형태소 분석</b></summary>
+ 
+ 내용
+
+</details>
+<br>
+
+</details>
+<br>
+
+<details>
+<summary><b>대화 패턴 분석</b></summary>
+ 
+ 내용
+
+</details>
+<br>
 ---
 
 ### **☑️ 결론**
