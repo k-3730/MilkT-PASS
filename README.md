@@ -9,6 +9,11 @@
 | [<img src="https://github.com/k-3730.png" height=150 width=150> <br/> @k-3730](https://github.com/k-3730) | [<img src="https://github.com/hariqueen.png" height=150 width=150> <br/> @hariqueen](https://github.com/hariqueen) | [<img src="https://github.com/daini0i.png" height=150 width=150> <br/> @daini0i](https://github.com/daini0i) | [<img src="https://github.com/surplus96.png" height=150 width=150> <br/> @surplus96](https://github.com/surplus96) |
 
 </div>
+권홍준 :
+김하리 :
+신다인 :
+최태영 :
+
 
 <br><br>
 
