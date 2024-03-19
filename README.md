@@ -2,6 +2,7 @@
 
 ### **🗞️ 프로젝트 소개**
 🕛 개발 기간 : 2024.02.05 ~ 2024.03.25
+<br>
 내용을 적어보아요
 
 
@@ -18,15 +19,17 @@
 | [<img src="https://github.com/k-3730.png" height=150 width=150> <br/> @k-3730](https://github.com/k-3730) | [<img src="https://github.com/hariqueen.png" height=150 width=150> <br/> @hariqueen](https://github.com/hariqueen) | [<img src="https://github.com/daini0i.png" height=150 width=150> <br/> @daini0i](https://github.com/daini0i) | [<img src="https://github.com/surplus96.png" height=150 width=150> <br/> @surplus96](https://github.com/surplus96) |
 
 </div>
-권홍준 :
+**🍅권홍준 : ffff**
+
 <br>
+
 김하리 :
 <br>
+
 신다인 :
 <br>
+
 최태영 :
-
-
 <br><br>
 
 ---
