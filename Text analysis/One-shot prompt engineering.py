@@ -107,7 +107,7 @@ def math_evaluate_lecture(file_path):
     # 결과 출력
     return response.choices[0].message['content']
 
-
+# 수학 과목 불러와서 평가하면 결과가 나온다.
 math_worst_1 = 'milkt text/math_worst_1.txt'
 print(math_evaluate_lecture(math_worst_1))
 
@@ -148,6 +148,6 @@ def english_evaluate_lecture(file_path):
     # 결과 출력
     return response.choices[0].message['content']
 
-
+# 영어 과목 불러와서 평가하면 결과가 나온다.
 english_best_1 = 'milkt text/english_best_1.txt'
 print(math_evaluate_lecture(english_best_1))
