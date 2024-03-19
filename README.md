@@ -61,7 +61,7 @@
  내용
 
 </details>
-
+<br>
 <details>
 <summary><b>강의 이미지 검출</b></summary>
  
