@@ -1,45 +1,12 @@
 # 📈 MilkT PASS
 
 ### **🧑‍🤝‍🧑 천재교육 빅데이터 5기 '데이터 스쿼드' 팀 구성**
-<center>
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/k-3730">
-        <img src="https://github.com/k-3730.png" width="150px;" alt="홍준"/><br />
-        <sub><b style="font-size: larger;">권홍준</b></sub>
-      </a>
-      <br />
-      <sub><b>작업</b></sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/hariqueen">
-        <img src="https://github.com/hariqueen.png" width="150px;" alt="하리"/><br />
-        <sub><b style="font-size: larger;">김하리</b></sub>
-      </a>
-      <br />
-      <sub><b>작업</b></sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/daini0i">
-        <img src="https://github.com/daini0i.png" width="150px;" alt="다인"/><br />
-        <sub><b style="font-size: larger;">신다인</b></sub>
-      </a>
-      <br />
-      <sub><b>작업</b></sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/surplus96">
-        <img src="https://github.com/surplus96.png" width="150px;" alt="태영"/><br />
-        <sub><b style="font-size: larger;">최태영</b></sub>
-      </a>
-      <br />
-      <sub><b>작업</b></sub>
-    </td>
-  </tr>
-</table>
-</center>
-<br/>
+
+<div align="center">
+| **권홍준** | **김하리** | **신다인** | **최태** |
+| :------: |  :------: | :------: | :------: |
+| [<img src="https://github.com/k-3730.png" height=150 width=150> <br/> @yeon1615](https://github.com/yeon1615) | [<img src="https://avatars.githubusercontent.com/u/112460466?v=4" height=150 width=150> <br/> @Cheorizzang](https://github.com/Cheorizzang) | [<img src="https://avatars.githubusercontent.com/u/112460506?v=4" height=150 width=150> <br/> @heejiyang](https://github.com/heejiyang) | [<img src="https://avatars.githubusercontent.com/u/76766459?v=4" height=150 width=150> <br/> @journey-ji](https://github.com/journey-ji) |
+
 
 ---
 
