@@ -123,9 +123,7 @@
 </details>
 
 <details>
-<summary><b>대화 패턴 분석</b></summary>
-
-##구문 패턴 분석</b></summary>
+<summary><b>구문 패턴 분석</b></summary>
  
  내용
 
