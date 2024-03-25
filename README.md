@@ -62,9 +62,12 @@
 <details>
 <summary><b>얼굴 감정분석</b></summary>
 
-[모델 설명 및 다운로드](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=82)
+[모델](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=82)
 
-한국인 감정 인식을 위한 모델을 다운로드 하여 사용했으며 강의 영상에 대해서 실시간으로 감정을 인식하게 하였고
+Ai-hub에서 한국인 감정 인식을 위한 모델로 해당 링크에서 이용할 수 있다.
+해당 모델은 7가지의 감정 기쁨, 당황, 분노, 불안, 상처, 슬픔, 중립으로 구성되어 있으며 각 감정 당 약 7만건의 한국인 데이터로만 학습되었다.
+강의 영상(MP4)에 대해서 실시간으로 감정을 인식하게 하여 분석하였으며 모델이 해당 감정이 95% 이상일 때만 감정을 인식하게 하였다.
+또 한 단순 감정 빈도수가 아닌 감정의 변화 횟수를 측정하고 영상의 길이를 고려하여 정규화하여 진행하였다.
 
 </details>
 
