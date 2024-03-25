@@ -67,7 +67,7 @@
 </details>
 
 <details>
-<summary><b>강의 이미지 검출</b></summary>
+<summary><b>객체 인식 분석</b></summary>
 
  내용
 
