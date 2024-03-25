@@ -123,7 +123,10 @@ Ai-hub에서 한국인 감정 인식을 위한 모델로 상기 링크에서 이
 <details>
 <summary><b>형태소 분석</b></summary>
 
- 내용
+ 각 강의에 대해 형태소 비율의 차이를 비교하기 위해서 형태소 분석기 Okt를 사용하여 비율을 계산하였다.
+ Okt 모델은 트위터 형태소 분석기로 구어체와 신조어에 강점을 띄어 해당 분석기를 이용하였으며 다양한 품사의 비율을 계산해준다.
+ 품사의 종류로는 해당 링크를 통하여 확인 가능하다.
+ [형태소 분석기 품사 종류](https://datascienceschool.net/03%20machine%20learning/03.01.02%20KoNLPy%20%ED%95%9C%EA%B5%AD%EC%96%B4%20%EC%B2%98%EB%A6%AC%20%ED%8C%A8%ED%82%A4%EC%A7%80.html)
 
 </details>
 
