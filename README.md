@@ -62,7 +62,9 @@
 <details>
 <summary><b>얼굴 감정분석</b></summary>
 
- 내용
+모델 설명 및 다운로드 : https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=82
+
+한국인 감정 인식을 위한 모델을 다운로드 하여 사용했으며 강의 영상에 대해서 
 
 </details>
 
