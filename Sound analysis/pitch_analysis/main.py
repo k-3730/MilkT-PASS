@@ -33,21 +33,17 @@ for sub in subject:
         df = pd.DataFrame(pitches_list, columns=["time", "sound pitches"])
 
         
-        man_list = ["EBS L1. 가장 쉽게 배우는 단어 ＆ 숙어","EBS L1. 심쿵 단어",'EBS 영어 마을의 8 친구들： 8품사','EBSbe동사 보는 용어로 Start!','EBS품사','EBS문법_음성_음운(자음과_모음)','ebs-중등국어-시의목소리','ebs-중학국어-비유표현','[EBS] 소수의 분류',
-    '[EBS] 소인수분해를 이용하여 약수와 약수의 개수 구하기']  ## 남자 강사 강의리스트
+        man_list = []  ## 남자 강사 강의리스트
 
         if audios.replace('.mp3', '') in man_list:
             print(audios)
-            df['sound pitches'] = df['sound pitches'].mul(1.1)
+            df['sound pitches'] = df['sound pitches'].mul(1.5)
             
         df["sound pitches"] = df["sound pitches"][df["sound pitches"] != 2205.0]    ## 무음 또는 소리인식이 안됬을때 값 제거
         df["sound pitches"] = df["sound pitches"][df["sound pitches"] != 11025.0]    
 
         df = df.dropna()
 
-        # 델타값(변화량) 계산
-        df['delta_pitch'] = abs(df['sound pitches'].diff())
-        y = df["delta_pitch"][df['delta_pitch'] > 300]
         audios2 = audios.replace(".mp3", "")
         
         df.to_csv(f"{save_path}\\{sub}\\{audios2}.csv", index = None)

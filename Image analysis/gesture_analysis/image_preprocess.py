@@ -5,18 +5,20 @@ import numpy as np
 
 
 def image_anal(video_path, target_video):
-    
+
     # Mediapipe Hands 모듈 초기화
     mp_hands = mp.solutions.hands
     hands = mp_hands.Hands(static_image_mode=False, max_num_hands=2, min_detection_confidence=0.5)
     face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_alt.xml")
+
+
     # 비디오 파일 경로
-    video_path = f"{video_path}\\{target_video}"
+    video_path = f"{video_path}/{target_video}"
     print(video_path)
     # 비디오 캡처 객체 생성
     cap = cv2.VideoCapture(video_path)
 
-    
+
     cap.set(cv2.CAP_PROP_FPS, cap.get(cv2.CAP_PROP_FPS) * 2)
 
     hand_mag = []
@@ -25,19 +27,20 @@ def image_anal(video_path, target_video):
     ret, prev_frame = cap.read()
     prev_frame = cv2.cvtColor(prev_frame, cv2.COLOR_BGR2RGB)
 
+    
     results = hands.process(prev_frame)
-        
+
     # 감지된 손이 있을 경우
     if results.multi_hand_landmarks:
         # 감지된 각 손에 대해 처리
         for hand_landmarks in results.multi_hand_landmarks:
-            x_min, y_min = frame.shape[1], frame.shape[0]
+            x_min, y_min = prev_frame.shape[1], prev_frame.shape[0]
             x_max, y_max = 0, 0
             hand_landmark = [(lm.x, lm.y) for lm in hand_landmarks.landmark]
             # 손이 오른쪽에 있는지 왼쪽에 있는지 확인
             z_min = min(hand_landmark, key=lambda x: x[0])[0]
             for landmark in hand_landmarks.landmark:
-                x, y = int(landmark.x * frame.shape[1]), int(landmark.y * frame.shape[0])
+                x, y = int(landmark.x * prev_frame.shape[1]), int(landmark.y * prev_frame.shape[0])
                 if x < x_min:
                     x_min = x
                 if x > x_max:
@@ -46,13 +49,13 @@ def image_anal(video_path, target_video):
                     y_min = y
                 if y > y_max:
                     y_max = y
-            prev_hand_image = frame[y_min:y_max, x_min:x_max]
+            prev_hand_image = prev_frame[y_min:y_max, x_min:x_max]
 
     else:
         prev_hand_image = []
     # 비디오 프레임 반복
     while cap.isOpened():
-        
+
         # 비디오 프레임 읽기
         ret, frame = cap.read()
         if not ret:
@@ -64,7 +67,7 @@ def image_anal(video_path, target_video):
             }
 
         # 프레임을 RGB로 변환
-        curr_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        curr_frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
 
         # 타임스탬프
         timestamp_ms = cap.get(cv2.CAP_PROP_POS_MSEC)
@@ -74,18 +77,24 @@ def image_anal(video_path, target_video):
 
         # 손 감지
         results = hands.process(curr_frame)
-    
+
         # 감지된 손이 있을 경우
         if len(faces) > 0 and results.multi_hand_landmarks:
+
+            for (x, y, w, h) in faces:
+                cv2.rectangle(curr_frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
             # 감지된 각 손에 대해 처리
             for hand_landmarks in results.multi_hand_landmarks:
-                x_min, y_min = frame.shape[1], frame.shape[0]
+
+                mp.solutions.drawing_utils.draw_landmarks(curr_frame, hand_landmarks, mp_hands.HAND_CONNECTIONS)
+
+                x_min, y_min = curr_frame.shape[1], curr_frame.shape[0]
                 x_max, y_max = 0, 0
 
                 hand_landmark = [(lm.x, lm.y) for lm in hand_landmarks.landmark]
 
                 for landmark in hand_landmarks.landmark:
-                    x, y = int(landmark.x * frame.shape[1]), int(landmark.y * frame.shape[0])
+                    x, y = int(landmark.x * curr_frame.shape[1]), int(landmark.y * curr_frame.shape[0])
                     if x < x_min:
                         x_min = x
                     if x > x_max:
@@ -96,18 +105,22 @@ def image_anal(video_path, target_video):
                         y_max = y
 
                 curr_hand_image = frame[y_min:y_max, x_min:x_max]
-                if prev_hand_image == []:
+                if prev_hand_image is None or len(prev_hand_image) == 0:
                     prev_hand_image = curr_hand_image.copy()
-                else:  
+                else:
                     motion_mag = extract_motion_mag(prev_hand_image, curr_hand_image)
                     hand_mag.append([timestamp_s, motion_mag])
-
                     prev_hand_image = curr_hand_image.copy()
 
                 del curr_hand_image
         else:
             curr_hand_image = []
-        
+               
+        cv2.imshow('Hand Tracking', curr_frame)
+        # Exit when 'q' is pressed
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+
         i += 1
         if i%1000==0:
             print(video_inform2['present_frame'], video_inform2['total_frame'])
@@ -122,13 +135,13 @@ def image_anal(video_path, target_video):
     hands.close()
 
     # 이미지 처리 후에 hand_image에 대한 메모리 해제
-    
+
 
     return hand_mag
 
 
 def extract_motion_mag(prev_frame, curr_frame):
-    
+
     def frame_padding(prev_frame, curr_frame):
 
         # 이전 프레임과 현재 프레임의 크기 확인
@@ -163,5 +176,5 @@ def extract_motion_mag(prev_frame, curr_frame):
 
         # 모션 벡터의 크기 계산
         motion_magnitude = cv2.norm(flow, cv2.NORM_L2)    # 픽셀 단위
-        
+
         return motion_magnitude
