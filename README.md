@@ -74,7 +74,7 @@ Ai-hub에서 한국인 감정 인식을 위한 모델로 상기 링크에서 이
 <details>
 <summary><b>객체 인식 분석</b></summary>
 
- 내용
+![image](https://github.com/k-3730/MilkT-PASS/assets/45035923/f3c88df6-8764-49f5-8d33-5358a3c19170) ![image (1)](https://github.com/k-3730/MilkT-PASS/assets/45035923/0e7907ed-ef7e-426d-83a6-1d50dc88e383)
 
 </details>
 
