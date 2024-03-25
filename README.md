@@ -1,6 +1,6 @@
 # 📈 MilkT PASS
 
-![테스트_1](https://github.com/k-3730/MilkT-PASS/assets/45035923/255f10cf-9fcd-49eb-bf60-57fa25b78459)
+![K-001](https://github.com/k-3730/MilkT-PASS/assets/45035923/9cec0587-9afb-43b4-953f-d44aa68787d2)
 
 ### **🗞️ 프로젝트 소개**
 🕛 개발 기간 : 2024.02.05 ~ 2024.03.25
